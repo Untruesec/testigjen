@@ -1,0 +1,145 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "name": "Attacker A" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -74.0060, 40.7128, 0 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Attacker B" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 139.6917, 35.6895, 0 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Target A" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -0.1276, 51.5074, 0 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Target B" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 151.2093, -33.8688, 0 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Target C" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 2.3522, 48.8566, 0 ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Phishing", "description": "Email-based attack" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ -74.0060, 40.7128, 0 ],
+            [ -0.1276, 51.5074, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Malware", "description": "Ransomware attack" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ 139.6917, 35.6895, 0 ],
+            [ 151.2093, -33.8688, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "DDoS", "description": "Distributed Denial of Service" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ -74.0060, 40.7128, 0 ],
+            [ 2.3522, 48.8566, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Phishing", "description": "Spear phishing" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ 139.6917, 35.6895, 0 ],
+            [ -0.1276, 51.5074, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Malware", "description": "Trojan horse" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ 2.3522, 48.8566, 0 ],
+            [ 151.2093, -33.8688, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "DDoS", "description": "Botnet attack" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ -74.0060, 40.7128, 0 ],
+            [ 151.2093, -33.8688, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Phishing", "description": "Clone phishing" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ 2.3522, 48.8566, 0 ],
+            [ -74.0060, 40.7128, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "Malware", "description": "Spyware attack" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ -0.1276, 51.5074, 0 ],
+            [ 2.3522, 48.8566, 0 ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "attackType": "DDoS", "description": "Amplification attack" },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [ 151.2093, -33.8688, 0 ],
+            [ 139.6917, 35.6895, 0 ]
+          ]
+        }
+      }
+    ]
+  }
+  
